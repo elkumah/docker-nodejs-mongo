@@ -5,8 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-const mongoURL =
-  "mongodb://admin:password@mongo:27017/mydatabase?authSource=admin";
+const mongoURL = "mongodb://admin:pass@mongo:27017/mydatabase?authSource=admin";
 
 mongoose
   .connect(mongoURL)
